@@ -1,0 +1,32 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "3B90A608BA9C0AFB07717481F7BDA3A95458CFEA",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "707fbbf2-c5d4-af49-a7c7-aa6e372eaf34++505" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "707fbbf2-c5d4-af49-a7c7-aa6e372eaf34++505" : 9223372036854775807,
+    "3B90A608BA9C0AFB07717481F7BDA3A95458CFEA" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "7D6EE138-4858-4305-AD7C-33A587CE3435",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "707fbbf2-c5d4-af49-a7c7-aa6e372eaf34++505" : "%E5%B7%A5%E7%A8%8B\/",
+    "3B90A608BA9C0AFB07717481F7BDA3A95458CFEA" : "Bandcare\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Bracelet",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Bracelet\/Bracelet.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/dingfude2008\/Bandcare.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3B90A608BA9C0AFB07717481F7BDA3A95458CFEA"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/192.168.1.117\/svn\/C1_ios",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "707fbbf2-c5d4-af49-a7c7-aa6e372eaf34++505"
+    }
+  ]
+}

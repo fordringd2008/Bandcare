@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10171" systemVersion="15A284" minimumToolsVersion="Xcode 4.3">
+    <entity name="Clock" representedClassName="Clock" syncable="YES">
+        <attribute name="hour" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="iD" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="isOn" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="minute" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="repeat" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="strRepeat" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="strTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="strType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="DataRecord" representedClassName="DataRecord" syncable="YES">
+        <attribute name="access" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="dateValue" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="day" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="distance_array" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="distance_count" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="heat_array" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="heat_count" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="heat_ropeSkipping" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="heat_situps" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="heat_swim" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="isUpload" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="month" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="refresh_count" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="ropeSkipping_count" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="situps_count" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="step_array" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="step_count" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="swim_count" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="year" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="Friend" representedClassName="Friend" syncable="YES">
+        <attribute name="access" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="band_type" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="dateTime" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="distance" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="isRequest" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="k_date" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="last_situplike_kDate" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="last_sportlike_kDate" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="lastRemindDatetime" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="situps_like_num" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="situps_num" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="sport_array" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sport_array_yeaterday" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sport_like_num" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="sport_num" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="tag" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="user_gender" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="user_height" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="user_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="user_nick_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="user_pic_url" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="user_situps_target" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="user_sleep_end_time" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="user_sleep_start_time" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="user_sport_target" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="user_weight" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+    </entity>
+    <entity name="FriendInGlobal" representedClassName="FriendInGlobal" syncable="YES">
+        <attribute name="access" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nick_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rank" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="situp_num" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="situp_rank" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="sport_num" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="url" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="user_gender" optional="YES" attributeType="Boolean" defaultValueString="0" syncable="YES"/>
+        <attribute name="user_id" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="FriendRequest" representedClassName="FriendRequest" syncable="YES">
+        <attribute name="access" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dateTime" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="day" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="friend_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="friend_msg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="friend_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isOver" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="month" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="user_pic_url" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="year" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="UserInfo" representedClassName="UserInfo" syncable="YES">
+        <attribute name="access" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="account" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="area_code" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isNeedUpdate" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="loginType" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="orData" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="password" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pUUIDString" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="situps_like_number" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="sport_like_number" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="swithShockWhenDisconnect" optional="YES" attributeType="Boolean" defaultValueString="YES" syncable="YES"/>
+        <attribute name="swithShowMenu" optional="YES" attributeType="Boolean" defaultValueString="YES" syncable="YES"/>
+        <attribute name="swithShowSreenWhenPut" optional="YES" attributeType="Boolean" defaultValueString="YES" syncable="YES"/>
+        <attribute name="token" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="unit" optional="YES" attributeType="Boolean" defaultValueString="YES" syncable="YES"/>
+        <attribute name="update_time" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="user_birthday" optional="YES" attributeType="Date" defaultDateTimeInterval="-347184000" syncable="YES"/>
+        <attribute name="user_gender" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="user_height" optional="YES" attributeType="Double" defaultValueString="170" syncable="YES"/>
+        <attribute name="user_id" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="user_language_code" optional="YES" attributeType="String" defaultValueString="01" syncable="YES"/>
+        <attribute name="user_nick_name" optional="YES" attributeType="String" defaultValueString="BandcareUser" syncable="YES"/>
+        <attribute name="user_pic_url" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="user_situps_target" optional="YES" attributeType="Integer 64" defaultValueString="80" syncable="YES"/>
+        <attribute name="user_sleep_end_time" optional="YES" attributeType="String" defaultValueString="0800" syncable="YES"/>
+        <attribute name="user_sleep_start_time" optional="YES" attributeType="String" defaultValueString="2200" syncable="YES"/>
+        <attribute name="user_sport_target" optional="YES" attributeType="Integer 64" defaultValueString="5000" syncable="YES"/>
+        <attribute name="user_weight" optional="YES" attributeType="Double" defaultValueString="70" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Clock" positionX="-63" positionY="-18" width="128" height="195"/>
+        <element name="DataRecord" positionX="-54" positionY="135" width="128" height="345"/>
+        <element name="Friend" positionX="-45" positionY="144" width="128" height="435"/>
+        <element name="FriendInGlobal" positionX="-54" positionY="135" width="128" height="180"/>
+        <element name="FriendRequest" positionX="-54" positionY="135" width="128" height="210"/>
+        <element name="UserInfo" positionX="-54" positionY="126" width="128" height="480"/>
+    </elements>
+</model>
